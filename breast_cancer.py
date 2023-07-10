@@ -46,13 +46,13 @@ st.write("Shape",X.shape)
 st.write('Target shape',y.shape)
 st.write("Number of classes", len(np.unique(y)))
 
-fig = plt.figure()
-sns.boxplot(data=X, orient='h')
+# fig = plt.figure()
+# sns.boxplot(data=X, orient='h')
 
-st.pyplot()
-#PLOT HISTOGRAM
-plt.hist(X)
-st.pyplot()
+# st.pyplot()
+# #PLOT HISTOGRAM
+# plt.hist(X)
+# st.pyplot()
 #BUILD THE MODELS PARAMETERS
 def add_params(name_of_clf):
 	params = dict()
